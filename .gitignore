@@ -1,0 +1,27 @@
+# Ігноруємо середовище віртуального оточення
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи
+logs/
+*.log
+
+# Конфігураційні файли IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Тестові артефакти
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Системні файли
+.DS_Store
+Thumbs.db
